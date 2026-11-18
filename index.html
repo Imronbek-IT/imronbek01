@@ -1,0 +1,423 @@
+
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#090914">
+    <title>FOODIX | Future Of Fast Food</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<div class="cursor-glow" id="cursorGlow"></div>
+<div class="noise"></div>
+
+<!-- NAVBAR -->
+<header class="navbar">
+    <a href="#home" class="logo">
+        FOOD<span>IX</span><small>®</small>
+    </a>
+
+    <nav class="nav-links" id="navLinks">
+        <a href="#home">HOME</a>
+        <a href="#menu">MENU</a>
+        <a href="#experience">EXPERIENCE</a>
+        <a href="#about">ABOUT</a>
+    </nav>
+
+    <div class="nav-right">
+        <button class="cart-button" id="cartButton">
+            <i class="fas fa-bag-shopping"></i>
+            <span id="cartCount">0</span>
+        </button>
+
+        <button class="hamburger" id="hamburger">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+</header>
+
+<!-- HERO -->
+<main>
+<section class="hero" id="home">
+
+    <div class="hero-grid"></div>
+    <div class="hero-orb orb-one"></div>
+    <div class="hero-orb orb-two"></div>
+
+    <div class="hero-content reveal">
+        <div class="status">
+            <span class="status-dot"></span>
+            THE FUTURE OF FAST FOOD
+        </div>
+
+        <h1>
+            TASTE THE<br>
+            <span>FUTURE.</span>
+        </h1>
+
+        <p class="hero-description">
+            Oddiy ta'mlardan tashqariga chiq.
+            FOODIX bilan har bir luqma yangi
+            tajriba va yangi energiya!
+        </p>
+
+        <div class="hero-buttons">
+            <a href="#menu" class="neon-button">
+                EXPLORE MENU <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <a href="#experience" class="outline-button">
+                DISCOVER MORE
+            </a>
+        </div>
+
+        <div class="hero-stats">
+            <div>
+                <h3>50+</h3>
+                <p>FOOD ITEMS</p>
+            </div>
+            <div>
+                <h3>4.9<span>★</span></h3>
+                <p>RATING</p>
+            </div>
+            <div>
+                <h3>24/7</h3>
+                <p>ENERGY</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero-visual reveal">
+        <div class="hero-ring ring-one"></div>
+        <div class="hero-ring ring-two"></div>
+
+        <div class="hero-product" id="heroProduct">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=1000"
+                 alt="FOODIX special burger">
+        </div>
+
+        <div class="floating-card floating-top">
+            <span>✦</span>
+            <div>
+                <small>BEST SELLER</small>
+                <h4>CYBER BURGER</h4>
+            </div>
+        </div>
+
+        <div class="floating-card floating-bottom">
+            <span>🔥</span>
+            <div>
+                <small>HOT & FRESH</small>
+                <h4>100% TASTE</h4>
+            </div>
+        </div>
+
+        <div class="hero-label">#01 / FOODIX</div>
+    </div>
+
+    <div class="hero-bottom-text">FUTURE TASTES BETTER</div>
+</section>
+
+<!-- MARQUEE -->
+<div class="marquee">
+    <div class="marquee-track">
+        <span>FRESH FOOD ✦ FAST DELIVERY ✦ CRAZY TASTE ✦</span>
+        <span>FRESH FOOD ✦ FAST DELIVERY ✦ CRAZY TASTE ✦</span>
+    </div>
+</div>
+
+<!-- 3D CAROUSEL -->
+<section class="experience-section" id="experience">
+    <div class="section-heading reveal">
+        <span class="eyebrow">01 / OUR EXPERIENCE</span>
+        <h2>ENTER THE <span>FOODVERSE.</span></h2>
+        <p>Bizning eng mashhur taomlarimiz bilan tanishing.</p>
+    </div>
+
+    <div class="carousel-wrapper">
+        <button class="carousel-arrow prev" id="prevBtn">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+
+        <div class="carousel-scene">
+            <div class="carousel-3d" id="carousel">
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=500" alt="Cyber burger">
+                    <h3>CYBER BURGER</h3>
+                    <span>45 000 SO'M</span>
+                </div>
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=500" alt="Pizza">
+                    <h3>NEON PIZZA</h3>
+                    <span>65 000 SO'M</span>
+                </div>
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=500" alt="Chicken">
+                    <h3>CRUNCH CHICKEN</h3>
+                    <span>38 000 SO'M</span>
+                </div>
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1573080496219-bb080dd4f877?w=500" alt="Fries">
+                    <h3>MEGA FRIES</h3>
+                    <span>20 000 SO'M</span>
+                </div>
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1529006557810-274b9b2fc783?w=500" alt="Wrap">
+                    <h3>SPACE LAVASH</h3>
+                    <span>32 000 SO'M</span>
+                </div>
+
+                <div class="carousel-card">
+                    <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=500" alt="Drink">
+                    <h3>GALAXY DRINK</h3>
+                    <span>18 000 SO'M</span>
+                </div>
+
+            </div>
+        </div>
+
+        <button class="carousel-arrow next" id="nextBtn">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <div class="carousel-controls">
+        <span id="carouselNumber">01 / 06</span>
+        <div class="carousel-line">
+            <span id="carouselProgress"></span>
+        </div>
+        <span>DRAG OR CLICK</span>
+    </div>
+</section>
+
+<!-- MENU -->
+<section class="menu-section" id="menu">
+    <div class="section-heading reveal">
+        <span class="eyebrow">02 / FOOD COLLECTION</span>
+        <h2>CHOOSE YOUR <span>POWER.</span></h2>
+        <p>O'zingizga yoqqan ta'mni tanlang.</p>
+    </div>
+
+    <div class="filter-list">
+        <button class="filter-btn active" data-filter="all">ALL ITEMS</button>
+        <button class="filter-btn" data-filter="burger">BURGERS</button>
+        <button class="filter-btn" data-filter="chicken">CHICKEN</button>
+        <button class="filter-btn" data-filter="pizza">PIZZA</button>
+        <button class="filter-btn" data-filter="drinks">DRINKS</button>
+    </div>
+
+    <div class="food-grid" id="foodGrid">
+
+        <article class="food-card reveal" data-category="burger">
+            <div class="food-image">
+                <span class="badge-tag">BEST SELLER</span>
+                <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=600" alt="Burger">
+                <span class="image-number">01</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">BURGERS / 4.9 ★</div>
+                <h3>Cyber Burger</h3>
+                <p>Maxsus sous, pishloq va shirali go'sht.</p>
+                <div class="food-footer">
+                    <strong>45 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Cyber Burger" data-price="45000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card reveal" data-category="chicken">
+            <div class="food-image">
+                <span class="badge-tag">HOT</span>
+                <img src="https://images.unsplash.com/photo-1562967916-eb82221dfb92?w=600" alt="Chicken">
+                <span class="image-number">02</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">CHICKEN / 4.8 ★</div>
+                <h3>Crunch Chicken</h3>
+                <p>Qarsildoq qobiq va yumshoq tovuq.</p>
+                <div class="food-footer">
+                    <strong>38 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Crunch Chicken" data-price="38000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card reveal" data-category="pizza">
+            <div class="food-image">
+                <span class="badge-tag">POPULAR</span>
+                <img src="https://images.unsplash.com/photo-1513104890138-7c749659a591?w=600" alt="Pizza">
+                <span class="image-number">03</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">PIZZA / 4.9 ★</div>
+                <h3>Neon Pizza</h3>
+                <p>Ko'p pishloq va maxsus masalliqlar.</p>
+                <div class="food-footer">
+                    <strong>65 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Neon Pizza" data-price="65000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card reveal" data-category="burger">
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1550547660-d9450f859349?w=600" alt="Cheese burger">
+                <span class="image-number">04</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">BURGERS / 4.7 ★</div>
+                <h3>Cheese Blast</h3>
+                <p>Ikki xil pishloq va maxsus sous.</p>
+                <div class="food-footer">
+                    <strong>39 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Cheese Blast" data-price="39000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card reveal" data-category="chicken">
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1626645738196-c2a7c87a8f58?w=600" alt="Wings">
+                <span class="image-number">05</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">CHICKEN / 4.8 ★</div>
+                <h3>Fire Wings</h3>
+                <p>Achchiq va shirin sousli qanotlar.</p>
+                <div class="food-footer">
+                    <strong>42 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Fire Wings" data-price="42000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+        <article class="food-card reveal" data-category="drinks">
+            <div class="food-image">
+                <img src="https://images.unsplash.com/photo-1544145945-f90425340c7e?w=600" alt="Drink">
+                <span class="image-number">06</span>
+            </div>
+            <div class="food-info">
+                <div class="food-meta">DRINKS / 4.9 ★</div>
+                <h3>Galaxy Drink</h3>
+                <p>Yangi mevali tetiklashtiruvchi ichimlik.</p>
+                <div class="food-footer">
+                    <strong>18 000 <small>SO'M</small></strong>
+                    <button class="add-cart" data-name="Galaxy Drink" data-price="18000">
+                        <i class="fas fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </article>
+
+    </div>
+</section>
+
+<!-- PROMO -->
+<section class="promo-section">
+    <div class="promo-glow"></div>
+    <div class="promo-content reveal">
+        <span class="eyebrow">03 / SPECIAL OFFER</span>
+        <h2>LEVEL UP<br>YOUR <span>HUNGER.</span></h2>
+        <p>Maxsus FOODIX combo bilan lazzatdan bahramand bo'ling.</p>
+        <a href="#menu" class="neon-button">ORDER NOW <i class="fas fa-arrow-right"></i></a>
+    </div>
+    <div class="promo-image reveal">
+        <img src="https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=900" alt="Food combo">
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about-section" id="about">
+    <div class="section-heading reveal">
+        <span class="eyebrow">04 / ABOUT FOODIX</span>
+        <h2>WE ARE <span>NOT ORDINARY.</span></h2>
+        <p>Biz shunchaki taom tayyorlamaymiz. Biz yangi ta'm tajribasini yaratamiz.</p>
+    </div>
+
+    <div class="about-grid">
+        <div class="about-box reveal">
+            <i class="fas fa-bolt"></i>
+            <h3>FAST ENERGY</h3>
+            <p>Tezkor xizmat va mazali taomlar.</p>
+        </div>
+        <div class="about-box reveal">
+            <i class="fas fa-star"></i>
+            <h3>PREMIUM QUALITY</h3>
+            <p>Har bir mahsulotda yuqori sifat.</p>
+        </div>
+        <div class="about-box reveal">
+            <i class="fas fa-heart"></i>
+            <h3>MADE WITH LOVE</h3>
+            <p>Har bir buyurtmaga alohida e'tibor.</p>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div>
+        <a href="#home" class="logo">FOOD<span>IX</span><small>®</small></a>
+        <p>THE FUTURE OF FAST FOOD.</p>
+    </div>
+
+    <div class="footer-socials">
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-telegram"></i></a>
+        <a href="#"><i class="fab fa-tiktok"></i></a>
+    </div>
+
+    <p class="copyright">© 2026 FOODIX. ALL RIGHTS RESERVED.</p>
+</footer>
+
+</main>
+
+<!-- CART MODAL -->
+<div class="cart-overlay" id="cartOverlay">
+    <div class="cart-modal">
+        <div class="cart-header">
+            <h2>YOUR <span>CART.</span></h2>
+            <button id="closeCart"><i class="fas fa-times"></i></button>
+        </div>
+
+        <div id="cartItems" class="cart-items">
+            <p class="empty-cart">Savatchangiz hozircha bo'sh.</p>
+        </div>
+
+        <div class="cart-total">
+            <span>TOTAL:</span>
+            <strong id="cartTotal">0 SO'M</strong>
+        </div>
+
+        <button class="neon-button checkout-btn" id="checkoutBtn">
+            CHECKOUT <i class="fas fa-arrow-right"></i>
+        </button>
+    </div>
+</div>
+
+<div class="toast" id="toast">PRODUCT ADDED!</div>
+
+<script src="script.js"></script>
+</body>
+</html>
